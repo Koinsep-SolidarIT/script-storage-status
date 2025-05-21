@@ -16,8 +16,8 @@ rm /usr/local/bin/results.log
 
 /usr/local/bin/import_storage_data.sh proxmox1.figura.local 22
 
-/usr/local/bin/import_storage_data.sh proxmox1.ezhellas.com 56022
-/usr/local/bin/import_storage_data.sh proxmox2.ezhellas.com 56022
-/usr/local/bin/import_storage_data.sh proxmox3.ezhellas.com 22
-/usr/local/bin/import_storage_data.sh proxmox4.ezhellas.com 56022
+/usr/local/bin/import_storage_data.sh proxmox1.xxxx.com 56022
+/usr/local/bin/import_storage_data.sh proxmox2.xxxx.com 56022
+/usr/local/bin/import_storage_data.sh proxmox3.xxxx.com 22
+/usr/local/bin/import_storage_data.sh proxmox4.xxxx.com 56022
 
