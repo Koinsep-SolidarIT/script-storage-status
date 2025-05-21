@@ -22,3 +22,6 @@ i run a crontab every day, to call all_storage.sh
 inside all_storage.sh i have all the servers i want to connect.
 you can see it live here:
 https://noc.ad110.gr/storage/
+
+![Screenshot 2025-05-21 at 12 57 03 PM](https://github.com/user-attachments/assets/aeaef320-4b62-4a15-835f-df1a069eb9de)
+
