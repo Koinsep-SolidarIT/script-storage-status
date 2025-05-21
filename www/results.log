@@ -1,0 +1,734 @@
+[Tue May 20 20:53:35 EEST 2025] Starting disk health check for proxmox1.ad110.local:22
+[Tue May 20 20:53:36 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:36 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: /dev/sda
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:36 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:36 EEST 2025] Processing disk 1822E140CF6D on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:36 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:36 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:36 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:36 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:36 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:37 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: 85%
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:37 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:37 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:37 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:37 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:37 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:37 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:37 EEST 2025] Processing disk  on proxmox1.ad110.local
+  Device: 
+  Health: %
+  ALERT: Health below 90% - notification sent
+  Data inserted into database
+[Tue May 20 20:53:37 EEST 2025] Disk health check completed for proxmox1.ad110.local
+2025-05-21 00:04:23 - Starting storage data import for server proxmox1.ad110.local on port 22
+2025-05-21 00:04:23 - Connecting to proxmox1.ad110.local:22 and executing HDSentinel command
+2025-05-21 00:04:24 - HDSentinel output saved to /tmp/tmp.fqRaZnJSnz
+2025-05-21 00:04:24 - Processing HDSentinel output
+2025-05-21 00:04:24 - Processing disk 1822E140CF6D (/dev/sda) on proxmox1.ad110.local
+2025-05-21 00:04:24 - Comment: Total written: 33.87 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #202 Percentage Of The Rated Lifetime Used
+2025-05-21 00:04:24 - Action: No actions needed.
+2025-05-21 00:04:24 - Updated last_checked for disk 1822E140CF6D in inventory
+2025-05-21 00:04:24 - Inserted health data for disk 1822E140CF6D
+2025-05-21 00:04:24 - Storage data import completed for server proxmox1.ad110.local
+2025-05-21 00:04:24 - Temporary file /tmp/tmp.fqRaZnJSnz removed
+2025-05-21 00:04:24 - Starting storage data import for server proxmox2.ad110.local on port 22
+2025-05-21 00:04:24 - Connecting to proxmox2.ad110.local:22 and executing HDSentinel command
+2025-05-21 00:04:24 - HDSentinel output saved to /tmp/tmp.aeMw89lYv8
+2025-05-21 00:04:24 - Processing HDSentinel output
+2025-05-21 00:04:24 - Processing disk S2RBNXAH281126A (/dev/sda) on proxmox2.ad110.local
+2025-05-21 00:04:24 - Comment: Total written: 21.70 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #177 Wear Leveling Count
+2025-05-21 00:04:24 - Action: No actions needed.
+2025-05-21 00:04:24 - Updated last_checked for disk S2RBNXAH281126A in inventory
+2025-05-21 00:04:24 - Inserted health data for disk S2RBNXAH281126A
+2025-05-21 00:04:24 - Storage data import completed for server proxmox2.ad110.local
+2025-05-21 00:04:24 - Temporary file /tmp/tmp.aeMw89lYv8 removed
+2025-05-21 00:04:24 - Starting storage data import for server proxmox3.ad110.local on port 22
+2025-05-21 00:04:24 - Connecting to proxmox3.ad110.local:22 and executing HDSentinel command
+2025-05-21 00:04:41 - HDSentinel output saved to /tmp/tmp.mVSwhd2XDb
+2025-05-21 00:04:41 - Processing HDSentinel output
+2025-05-21 00:04:41 - Processing disk 2204E6018FA2 (/dev/sda) on proxmox3.ad110.local
+2025-05-21 00:04:41 - Comment: The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #202 Vendor-specific
+2025-05-21 00:04:41 - Action: It is recommended to continuously monitor the hard disk status.
+2025-05-21 00:04:41 - Updated last_checked for disk 2204E6018FA2 in inventory
+2025-05-21 00:04:41 - Inserted health data for disk 2204E6018FA2
+2025-05-21 00:04:41 - Processing disk WD-WX22D71J5THT (/dev/sdb) on proxmox3.ad110.local
+2025-05-21 00:04:41 - Comment: The drive found 1 bad sectors during its self test. There are 1 weak sectors found on the disk surface. They may be remapped any time in the later use of the disk. More information: https://www.hdsentinel.com/hard_disk_case_weak_sectors.php At this point, warranty replacement of the disk is not yet possible, only if the health drops further. It is recommended to examine the log of the disk regularly. All new problems found will be logged there.
+2025-05-21 00:04:41 - Action: No actions needed.
+2025-05-21 00:04:41 - Updated last_checked for disk WD-WX22D71J5THT in inventory
+2025-05-21 00:04:41 - Inserted health data for disk WD-WX22D71J5THT
+2025-05-21 00:04:41 - Processing disk VGJZGY7G (/dev/sdc) on proxmox3.ad110.local
+2025-05-21 00:04:41 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:04:41 - Action: No actions needed.
+2025-05-21 00:04:41 - Updated last_checked for disk VGJZGY7G in inventory
+2025-05-21 00:04:41 - Inserted health data for disk VGJZGY7G
+2025-05-21 00:04:41 - Processing disk 25EDVR162X9K (/dev/sdd) on proxmox3.ad110.local
+2025-05-21 00:04:41 - Comment: 
+2025-05-21 00:04:41 - Action: Est. lifetime:
+2025-05-21 00:04:41 - Inserted new disk 25EDVR162X9K into inventory
+2025-05-21 00:04:41 - Inserted health data for disk 25EDVR162X9K
+2025-05-21 00:04:41 - Processing disk VGJ4H6HG (/dev/sdf) on proxmox3.ad110.local
+2025-05-21 00:04:41 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:04:41 - Action: No actions needed.
+2025-05-21 00:04:41 - Updated last_checked for disk VGJ4H6HG in inventory
+2025-05-21 00:04:41 - Inserted health data for disk VGJ4H6HG
+2025-05-21 00:04:41 - Storage data import completed for server proxmox3.ad110.local
+2025-05-21 00:04:41 - Temporary file /tmp/tmp.mVSwhd2XDb removed
+2025-05-21 00:04:41 - Starting storage data import for server proxmox1.m6.local on port 22
+2025-05-21 00:04:41 - Connecting to proxmox1.m6.local:22 and executing HDSentinel command
+2025-05-21 00:04:42 - HDSentinel output saved to /tmp/tmp.6E1ic9iuvX
+2025-05-21 00:04:42 - Processing HDSentinel output
+2025-05-21 00:04:42 - Processing disk 031613-213921685 (/dev/sda) on proxmox1.m6.local
+2025-05-21 00:04:42 - Comment: Total written: 28.50 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #169 Remain Life Percentage
+2025-05-21 00:04:42 - Action: It is recommended to continuously monitor the hard disk status.
+2025-05-21 00:04:42 - Updated last_checked for disk 031613-213921685 in inventory
+2025-05-21 00:04:42 - Inserted health data for disk 031613-213921685
+2025-05-21 00:04:42 - Storage data import completed for server proxmox1.m6.local
+2025-05-21 00:04:42 - Temporary file /tmp/tmp.6E1ic9iuvX removed
+2025-05-21 00:04:42 - Starting storage data import for server proxmox2.m6.local on port 22
+2025-05-21 00:04:42 - Connecting to proxmox2.m6.local:22 and executing HDSentinel command
+2025-05-21 00:04:43 - HDSentinel output saved to /tmp/tmp.2YdAftm4L9
+2025-05-21 00:04:43 - Processing HDSentinel output
+2025-05-21 00:04:43 - Processing disk S3Z2NB1KC22488F (/dev/sda) on proxmox2.m6.local
+2025-05-21 00:04:43 - Comment: Total written: 18.24 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #177 Wear Leveling Count
+2025-05-21 00:04:43 - Action: No actions needed.
+2025-05-21 00:04:43 - Updated last_checked for disk S3Z2NB1KC22488F in inventory
+2025-05-21 00:04:43 - Inserted health data for disk S3Z2NB1KC22488F
+2025-05-21 00:04:44 - Processing disk WD-WX12D51853E4 (/dev/sdb) on proxmox2.m6.local
+2025-05-21 00:04:44 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:04:44 - Action: No actions needed.
+2025-05-21 00:04:44 - Updated last_checked for disk WD-WX12D51853E4 in inventory
+2025-05-21 00:04:44 - Inserted health data for disk WD-WX12D51853E4
+2025-05-21 00:04:44 - Processing disk amusb (/dev/sdc) on proxmox2.m6.local
+2025-05-21 00:04:44 - Comment: 
+2025-05-21 00:04:44 - Action: Est. lifetime:
+2025-05-21 00:04:44 - Updated last_checked for disk amusb in inventory
+2025-05-21 00:04:44 - Inserted health data for disk amusb
+2025-05-21 00:04:44 - Storage data import completed for server proxmox2.m6.local
+2025-05-21 00:04:44 - Temporary file /tmp/tmp.2YdAftm4L9 removed
+2025-05-21 00:04:44 - Starting storage data import for server proxmox1.libero.local on port 22
+2025-05-21 00:04:44 - Connecting to proxmox1.libero.local:22 and executing HDSentinel command
+2025-05-21 00:04:46 - HDSentinel output saved to /tmp/tmp.GYEPFBgWvc
+2025-05-21 00:04:46 - Processing HDSentinel output
+2025-05-21 00:04:46 - Processing disk WD-WCAZA6548497 (/dev/sda) on proxmox1.libero.local
+2025-05-21 00:04:46 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:04:46 - Action: No actions needed.
+2025-05-21 00:04:46 - Updated last_checked for disk WD-WCAZA6548497 in inventory
+2025-05-21 00:04:46 - Inserted health data for disk WD-WCAZA6548497
+2025-05-21 00:04:46 - Processing disk WD-WCC4M0782134 (/dev/sdb) on proxmox1.libero.local
+2025-05-21 00:04:46 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:04:46 - Action: No actions needed.
+2025-05-21 00:04:46 - Updated last_checked for disk WD-WCC4M0782134 in inventory
+2025-05-21 00:04:46 - Inserted health data for disk WD-WCC4M0782134
+2025-05-21 00:04:46 - Processing disk WD-WCC300405682 (/dev/sdc) on proxmox1.libero.local
+2025-05-21 00:04:46 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:04:46 - Action: No actions needed.
+2025-05-21 00:04:46 - Updated last_checked for disk WD-WCC300405682 in inventory
+2025-05-21 00:04:46 - Inserted health data for disk WD-WCC300405682
+2025-05-21 00:04:46 - Processing disk UT05 (/dev/sdd) on proxmox1.libero.local
+2025-05-21 00:04:46 - Comment: 
+2025-05-21 00:04:46 - Action: Est. lifetime:
+2025-05-21 00:04:46 - Updated last_checked for disk UT05 in inventory
+2025-05-21 00:04:47 - Inserted health data for disk UT05
+2025-05-21 00:04:47 - Processing disk JK1130YAGKMNUT (/dev/sde) on proxmox1.libero.local
+2025-05-21 00:04:47 - Comment: Problems occurred between the communication of the disk and the host 10960 times. In case of sudden system crash, reboot, blue-screen-of-death, inaccessible file(s)/folder(s), it is recommended to verify data and power cables, connections - and if possible try different cables to prevent further problems. More information: https://www.hdsentinel.com/hard_disk_case_communication_error.php
+2025-05-21 00:04:47 - Action: No actions needed.
+2025-05-21 00:04:47 - Updated last_checked for disk JK1130YAGKMNUT in inventory
+2025-05-21 00:04:47 - Inserted health data for disk JK1130YAGKMNUT
+2025-05-21 00:04:47 - Processing disk 04102221B0076 (/dev/sdf) on proxmox1.libero.local
+2025-05-21 00:04:47 - Comment: Total written: 9.59 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #169 Remain Life Percentage
+2025-05-21 00:04:47 - Action: No actions needed.
+2025-05-21 00:04:47 - Updated last_checked for disk 04102221B0076 in inventory
+2025-05-21 00:04:47 - Inserted health data for disk 04102221B0076
+2025-05-21 00:04:47 - Processing disk WD-WCC4M4AXCCER (/dev/sdg) on proxmox1.libero.local
+2025-05-21 00:04:47 - Comment: There are 1 bad sectors on the disk surface. The contents of these sectors were moved to the spare area. The drive found 2 bad sectors during its self test. There are 3 weak sectors found on the disk surface. They may be remapped any time in the later use of the disk. More information: https://www.hdsentinel.com/hard_disk_case_weak_sectors.php At this point, warranty replacement of the disk is not yet possible, only if the health drops further. It is recommended to examine the log of the disk regularly. All new problems found will be logged there.
+2025-05-21 00:04:47 - Action: No actions needed.
+2025-05-21 00:04:47 - Updated last_checked for disk WD-WCC4M4AXCCER in inventory
+2025-05-21 00:04:47 - Inserted health data for disk WD-WCC4M4AXCCER
+2025-05-21 00:04:47 - Storage data import completed for server proxmox1.libero.local
+2025-05-21 00:04:47 - Temporary file /tmp/tmp.GYEPFBgWvc removed
+2025-05-21 00:04:47 - Starting storage data import for server proxmox2.libero.local on port 22
+2025-05-21 00:04:47 - Connecting to proxmox2.libero.local:22 and executing HDSentinel command
+2025-05-21 00:04:50 - HDSentinel output saved to /tmp/tmp.vvG3xVXa7h
+2025-05-21 00:04:50 - Processing HDSentinel output
+2025-05-21 00:04:50 - Processing disk 50026B728282742D (/dev/sda) on proxmox2.libero.local
+2025-05-21 00:04:50 - Comment: Total written: 21.70 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #231 SSD Life Left
+2025-05-21 00:04:50 - Action: No actions needed.
+2025-05-21 00:04:50 - Updated last_checked for disk 50026B728282742D in inventory
+2025-05-21 00:04:50 - Inserted health data for disk 50026B728282742D
+2025-05-21 00:04:50 - Processing disk WD-CA2REKEK (/dev/sdb) on proxmox2.libero.local
+2025-05-21 00:04:50 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:04:50 - Action: No actions needed.
+2025-05-21 00:04:50 - Updated last_checked for disk WD-CA2REKEK in inventory
+2025-05-21 00:04:50 - Inserted health data for disk WD-CA2REKEK
+2025-05-21 00:04:50 - Processing disk WD-WX42D311NKEV (/dev/sdc) on proxmox2.libero.local
+2025-05-21 00:04:50 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:04:50 - Action: No actions needed.
+2025-05-21 00:04:50 - Updated last_checked for disk WD-WX42D311NKEV in inventory
+2025-05-21 00:04:51 - Inserted health data for disk WD-WX42D311NKEV
+2025-05-21 00:04:51 - Storage data import completed for server proxmox2.libero.local
+2025-05-21 00:04:51 - Temporary file /tmp/tmp.vvG3xVXa7h removed
+2025-05-21 00:04:51 - Starting storage data import for server proxmox1.plus.local on port 22
+2025-05-21 00:04:51 - Connecting to proxmox1.plus.local:22 and executing HDSentinel command
+2025-05-21 00:04:51 - HDSentinel output saved to /tmp/tmp.52mltsXV5c
+2025-05-21 00:04:51 - Processing HDSentinel output
+2025-05-21 00:04:51 - Processing disk S7EWNJ0X100828H (/dev/sda) on proxmox1.plus.local
+2025-05-21 00:04:51 - Comment: Total written: 1.64 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found.
+2025-05-21 00:04:51 - Action: No actions needed.
+2025-05-21 00:04:51 - Updated last_checked for disk S7EWNJ0X100828H in inventory
+2025-05-21 00:04:51 - Inserted health data for disk S7EWNJ0X100828H
+2025-05-21 00:04:51 - Processing disk S6PYNM0W934950F (/dev/sdb) on proxmox1.plus.local
+2025-05-21 00:04:51 - Comment: Total written: 3.12 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found.
+2025-05-21 00:04:51 - Action: No actions needed.
+2025-05-21 00:04:51 - Updated last_checked for disk S6PYNM0W934950F in inventory
+2025-05-21 00:04:52 - Inserted health data for disk S6PYNM0W934950F
+2025-05-21 00:04:52 - Processing disk 14A0A0AHSDEH (/dev/sdc) on proxmox1.plus.local
+2025-05-21 00:04:52 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:04:52 - Action: No actions needed.
+2025-05-21 00:04:52 - Updated last_checked for disk 14A0A0AHSDEH in inventory
+2025-05-21 00:04:52 - Inserted health data for disk 14A0A0AHSDEH
+2025-05-21 00:04:52 - Storage data import completed for server proxmox1.plus.local
+2025-05-21 00:04:52 - Temporary file /tmp/tmp.52mltsXV5c removed
+2025-05-21 00:04:52 - Starting storage data import for server proxmox1.figura.local on port 22
+2025-05-21 00:04:52 - Connecting to proxmox1.figura.local:22 and executing HDSentinel command
+2025-05-21 00:04:55 - HDSentinel output saved to /tmp/tmp.VsUV0jvvBY
+2025-05-21 00:04:55 - Processing HDSentinel output
+2025-05-21 00:04:55 - Processing disk 48FS10KLTBDT (/dev/sda) on proxmox1.figura.local
+2025-05-21 00:04:55 - Comment: Total written: 8.39 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #233 Host Writes
+2025-05-21 00:04:55 - Action: No actions needed.
+2025-05-21 00:04:55 - Updated last_checked for disk 48FS10KLTBDT in inventory
+2025-05-21 00:04:55 - Inserted health data for disk 48FS10KLTBDT
+2025-05-21 00:04:55 - Processing disk 28MS11ASTBDT (/dev/sda) on proxmox1.figura.local
+2025-05-21 00:04:55 - Comment: Total written: 8.39 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #233 Host Writes
+2025-05-21 00:04:55 - Action: No actions needed.
+2025-05-21 00:04:55 - Updated last_checked for disk 28MS11ASTBDT in inventory
+2025-05-21 00:04:55 - Inserted health data for disk 28MS11ASTBDT
+2025-05-21 00:04:55 - Processing disk 88C0A05LF75E (/dev/sda) on proxmox1.figura.local
+2025-05-21 00:04:55 - Comment: Total written: 249.24 TB The status of the hard disk is perfect.
+2025-05-21 00:04:55 - Action: No actions needed.
+2025-05-21 00:04:55 - Updated last_checked for disk 88C0A05LF75E in inventory
+2025-05-21 00:04:55 - Inserted health data for disk 88C0A05LF75E
+2025-05-21 00:04:55 - Processing disk 88C0A04PF75E (/dev/sda) on proxmox1.figura.local
+2025-05-21 00:04:55 - Comment: Total written: 250.36 TB The status of the hard disk is perfect.
+2025-05-21 00:04:55 - Action: No actions needed.
+2025-05-21 00:04:55 - Updated last_checked for disk 88C0A04PF75E in inventory
+2025-05-21 00:04:55 - Inserted health data for disk 88C0A04PF75E
+2025-05-21 00:04:55 - Processing disk 88C0A04MF75E (/dev/sda) on proxmox1.figura.local
+2025-05-21 00:04:55 - Comment: Total written: 353.74 TB The hard disk reports the following problems: Total uncorrected read errors = 4 Total uncorrected verify errors = 3
+2025-05-21 00:04:55 - Action: No actions needed.
+2025-05-21 00:04:55 - Updated last_checked for disk 88C0A04MF75E in inventory
+2025-05-21 00:04:55 - Inserted health data for disk 88C0A04MF75E
+2025-05-21 00:04:56 - Processing disk 88C0A04NF75E (/dev/sda) on proxmox1.figura.local
+2025-05-21 00:04:56 - Comment: Total written: 353.91 TB The status of the hard disk is perfect.
+2025-05-21 00:04:56 - Action: No actions needed.
+2025-05-21 00:04:56 - Updated last_checked for disk 88C0A04NF75E in inventory
+2025-05-21 00:04:56 - Inserted health data for disk 88C0A04NF75E
+2025-05-21 00:04:56 - Processing disk V3G0Z69F (/dev/sda) on proxmox1.figura.local
+2025-05-21 00:04:56 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:04:56 - Action: No actions needed.
+2025-05-21 00:04:56 - Updated last_checked for disk V3G0Z69F in inventory
+2025-05-21 00:04:56 - Inserted health data for disk V3G0Z69F
+2025-05-21 00:04:56 - Processing disk V3G0ZDDF (/dev/sda) on proxmox1.figura.local
+2025-05-21 00:04:56 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:04:56 - Action: No actions needed.
+2025-05-21 00:04:56 - Updated last_checked for disk V3G0ZDDF in inventory
+2025-05-21 00:04:56 - Inserted health data for disk V3G0ZDDF
+2025-05-21 00:04:56 - Processing disk ? (/dev/sdb) on proxmox1.figura.local
+2025-05-21 00:04:56 - Comment: 
+2025-05-21 00:04:56 - Action: Est. lifetime:
+2025-05-21 00:04:56 - Updated last_checked for disk ? in inventory
+2025-05-21 00:04:56 - Inserted health data for disk ?
+2025-05-21 00:04:56 - Processing disk ? (/dev/sdc) on proxmox1.figura.local
+2025-05-21 00:04:56 - Comment: 
+2025-05-21 00:04:56 - Action: Est. lifetime:
+2025-05-21 00:04:56 - Updated last_checked for disk ? in inventory
+2025-05-21 00:04:56 - Inserted health data for disk ?
+2025-05-21 00:04:56 - Processing disk ? (/dev/sdd) on proxmox1.figura.local
+2025-05-21 00:04:56 - Comment: 
+2025-05-21 00:04:56 - Action: Est. lifetime:
+2025-05-21 00:04:56 - Updated last_checked for disk ? in inventory
+2025-05-21 00:04:57 - Inserted health data for disk ?
+2025-05-21 00:04:57 - Storage data import completed for server proxmox1.figura.local
+2025-05-21 00:04:57 - Temporary file /tmp/tmp.VsUV0jvvBY removed
+2025-05-21 00:04:57 - Starting storage data import for server proxmox1.ezhellas.com on port 56022
+2025-05-21 00:04:57 - Connecting to proxmox1.ezhellas.com:56022 and executing HDSentinel command
+2025-05-21 00:04:58 - HDSentinel output saved to /tmp/tmp.B7FRDlrafP
+2025-05-21 00:04:58 - Processing HDSentinel output
+2025-05-21 00:04:58 - Processing disk 4DG8EEHZ (/dev/sda) on proxmox1.ezhellas.com
+2025-05-21 00:04:58 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:04:58 - Action: No actions needed.
+2025-05-21 00:04:58 - Updated last_checked for disk 4DG8EEHZ in inventory
+2025-05-21 00:04:58 - Inserted health data for disk 4DG8EEHZ
+2025-05-21 00:04:58 - Processing disk 4DG5085Z (/dev/sdb) on proxmox1.ezhellas.com
+2025-05-21 00:04:58 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:04:58 - Action: No actions needed.
+2025-05-21 00:04:58 - Updated last_checked for disk 4DG5085Z in inventory
+2025-05-21 00:04:58 - Inserted health data for disk 4DG5085Z
+2025-05-21 00:04:58 - Storage data import completed for server proxmox1.ezhellas.com
+2025-05-21 00:04:58 - Temporary file /tmp/tmp.B7FRDlrafP removed
+2025-05-21 00:04:58 - Starting storage data import for server proxmox2.ezhellas.com on port 56022
+2025-05-21 00:04:58 - Connecting to proxmox2.ezhellas.com:56022 and executing HDSentinel command
+2025-05-21 00:04:59 - HDSentinel output saved to /tmp/tmp.tbDTR2yGhv
+2025-05-21 00:04:59 - Processing HDSentinel output
+2025-05-21 00:04:59 - Processing disk S1YJNXAG802330 (/dev/sda) on proxmox2.ezhellas.com
+2025-05-21 00:04:59 - Comment: Total written: 282.89 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #177 Wear Leveling Count
+2025-05-21 00:04:59 - Action: No actions needed.
+2025-05-21 00:04:59 - Updated last_checked for disk S1YJNXAG802330 in inventory
+2025-05-21 00:04:59 - Inserted health data for disk S1YJNXAG802330
+2025-05-21 00:04:59 - Processing disk S1YJNXAH301382 (/dev/sdb) on proxmox2.ezhellas.com
+2025-05-21 00:04:59 - Comment: Total written: 298.05 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #177 Wear Leveling Count
+2025-05-21 00:04:59 - Action: No actions needed.
+2025-05-21 00:04:59 - Updated last_checked for disk S1YJNXAH301382 in inventory
+2025-05-21 00:05:00 - Inserted health data for disk S1YJNXAH301382
+2025-05-21 00:05:00 - Processing disk WD-WMC1P0116043 (/dev/sdc) on proxmox2.ezhellas.com
+2025-05-21 00:05:00 - Comment: There are 5 weak sectors found on the disk surface. They may be remapped any time in the later use of the disk. More information: https://www.hdsentinel.com/hard_disk_case_weak_sectors.php At this point, warranty replacement of the disk is not yet possible, only if the health drops further. It is recommended to examine the log of the disk regularly. All new problems found will be logged there.
+2025-05-21 00:05:00 - Action: No actions needed.
+2025-05-21 00:05:00 - Updated last_checked for disk WD-WMC1P0116043 in inventory
+2025-05-21 00:05:00 - Inserted health data for disk WD-WMC1P0116043
+2025-05-21 00:05:00 - Processing disk WD-WMC1P0115780 (/dev/sdd) on proxmox2.ezhellas.com
+2025-05-21 00:05:00 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:05:00 - Action: No actions needed.
+2025-05-21 00:05:00 - Updated last_checked for disk WD-WMC1P0115780 in inventory
+2025-05-21 00:05:00 - Inserted health data for disk WD-WMC1P0115780
+2025-05-21 00:05:00 - Storage data import completed for server proxmox2.ezhellas.com
+2025-05-21 00:05:00 - Temporary file /tmp/tmp.tbDTR2yGhv removed
+2025-05-21 00:05:00 - Starting storage data import for server proxmox3.ezhellas.com on port 22
+2025-05-21 00:05:00 - Connecting to proxmox3.ezhellas.com:22 and executing HDSentinel command
+2025-05-21 00:05:01 - HDSentinel output saved to /tmp/tmp.PovO2W6eh8
+2025-05-21 00:05:01 - Processing HDSentinel output
+2025-05-21 00:05:01 - Processing disk S4GJNX0R516795 (/dev/nvme0) on proxmox3.ezhellas.com
+2025-05-21 00:05:01 - Comment: Total written: 102.05 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): Available Spare (Percent), Percentage Used
+2025-05-21 00:05:01 - Action: No actions needed.
+2025-05-21 00:05:02 - Updated last_checked for disk S4GJNX0R516795 in inventory
+2025-05-21 00:05:02 - Inserted health data for disk S4GJNX0R516795
+2025-05-21 00:05:02 - Processing disk S4GJNX0R516796 (/dev/nvme1) on proxmox3.ezhellas.com
+2025-05-21 00:05:02 - Comment: Total written: 30.88 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): Available Spare (Percent), Percentage Used
+2025-05-21 00:05:02 - Action: No actions needed.
+2025-05-21 00:05:02 - Updated last_checked for disk S4GJNX0R516796 in inventory
+2025-05-21 00:05:02 - Inserted health data for disk S4GJNX0R516796
+2025-05-21 00:05:02 - Processing disk 87O6Y018FTTB (/dev/sda) on proxmox3.ezhellas.com
+2025-05-21 00:05:02 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:05:02 - Action: No actions needed.
+2025-05-21 00:05:02 - Updated last_checked for disk 87O6Y018FTTB in inventory
+2025-05-21 00:05:02 - Inserted health data for disk 87O6Y018FTTB
+2025-05-21 00:05:02 - Storage data import completed for server proxmox3.ezhellas.com
+2025-05-21 00:05:02 - Temporary file /tmp/tmp.PovO2W6eh8 removed
+2025-05-21 00:05:02 - Starting storage data import for server proxmox4.ezhellas.com on port 56022
+2025-05-21 00:05:02 - Connecting to proxmox4.ezhellas.com:56022 and executing HDSentinel command
+2025-05-21 00:05:03 - HDSentinel output saved to /tmp/tmp.kfYrnZzFzV
+2025-05-21 00:05:03 - Processing HDSentinel output
+2025-05-21 00:05:03 - Processing disk 7HKKXYJJ (/dev/sda) on proxmox4.ezhellas.com
+2025-05-21 00:05:03 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 00:05:03 - Action: No actions needed.
+2025-05-21 00:05:03 - Updated last_checked for disk 7HKKXYJJ in inventory
+2025-05-21 00:05:03 - Inserted health data for disk 7HKKXYJJ
+2025-05-21 00:05:04 - Processing disk 7HKTAM6N (/dev/sdb) on proxmox4.ezhellas.com
+2025-05-21 00:05:04 - Comment: There are 12 bad sectors on the disk surface. The contents of these sectors were moved to the spare area. Based on the number of remapping operations, the health of the disk was decreased in different steps. At this point, warranty replacement of the disk is not yet possible, only if the health drops further. It is recommended to examine the log of the disk regularly. All new problems found will be logged there.
+2025-05-21 00:05:04 - Action: It is recommended to continuously monitor the hard disk status.
+2025-05-21 00:05:04 - Updated last_checked for disk 7HKTAM6N in inventory
+2025-05-21 00:05:04 - Inserted health data for disk 7HKTAM6N
+2025-05-21 00:05:04 - Storage data import completed for server proxmox4.ezhellas.com
+2025-05-21 00:05:04 - Temporary file /tmp/tmp.kfYrnZzFzV removed
+2025-05-21 04:02:55 - Starting storage data import for server proxmox3.ad110.local on port 22
+2025-05-21 04:02:55 - Connecting to proxmox3.ad110.local:22 and executing HDSentinel command
+2025-05-21 04:03:11 - HDSentinel output saved to /tmp/tmp.RZdQ04PttS
+2025-05-21 04:03:11 - Processing HDSentinel output
+2025-05-21 04:03:12 - Processing disk 2204E6018FA2 (/dev/sda) on proxmox3.ad110.local
+2025-05-21 04:03:12 - Comment: The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #202 Vendor-specific
+2025-05-21 04:03:12 - Action: It is recommended to continuously monitor the hard disk status.
+2025-05-21 04:03:12 - Inserted new disk 2204E6018FA2 into inventory
+2025-05-21 04:03:12 - Inserted health data for disk 2204E6018FA2
+2025-05-21 04:03:12 - Processing disk WD-WX22D71J5THT (/dev/sdb) on proxmox3.ad110.local
+2025-05-21 04:03:12 - Comment: The drive found 1 bad sectors during its self test. There are 1 weak sectors found on the disk surface. They may be remapped any time in the later use of the disk. More information: https://www.hdsentinel.com/hard_disk_case_weak_sectors.php At this point, warranty replacement of the disk is not yet possible, only if the health drops further. It is recommended to examine the log of the disk regularly. All new problems found will be logged there.
+2025-05-21 04:03:12 - Action: No actions needed.
+2025-05-21 04:03:12 - Inserted new disk WD-WX22D71J5THT into inventory
+2025-05-21 04:03:12 - Inserted health data for disk WD-WX22D71J5THT
+2025-05-21 04:03:12 - Processing disk VGJZGY7G (/dev/sdc) on proxmox3.ad110.local
+2025-05-21 04:03:12 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:03:12 - Action: No actions needed.
+2025-05-21 04:03:12 - Inserted new disk VGJZGY7G into inventory
+2025-05-21 04:03:12 - Inserted health data for disk VGJZGY7G
+2025-05-21 04:03:12 - Processing disk 25EDVR162X9K (/dev/sdd) on proxmox3.ad110.local
+2025-05-21 04:03:12 - Comment: 
+2025-05-21 04:03:12 - Action: Est. lifetime:
+2025-05-21 04:03:12 - Inserted new disk 25EDVR162X9K into inventory
+2025-05-21 04:03:12 - Inserted health data for disk 25EDVR162X9K
+2025-05-21 04:03:12 - Processing disk VGJ4H6HG (/dev/sdf) on proxmox3.ad110.local
+2025-05-21 04:03:12 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:03:12 - Action: No actions needed.
+2025-05-21 04:03:12 - Inserted new disk VGJ4H6HG into inventory
+2025-05-21 04:03:12 - Inserted health data for disk VGJ4H6HG
+2025-05-21 04:03:12 - Storage data import completed for server proxmox3.ad110.local
+2025-05-21 04:03:12 - Temporary file /tmp/tmp.RZdQ04PttS removed
+2025-05-21 04:05:13 - Starting storage data import for server proxmox1.ad110.local on port 22
+2025-05-21 04:05:13 - Connecting to proxmox1.ad110.local:22 and executing HDSentinel command
+2025-05-21 04:05:14 - HDSentinel output saved to /tmp/tmp.feQYWDCnMV
+2025-05-21 04:05:14 - Processing HDSentinel output
+2025-05-21 04:05:14 - Processing disk 1822E140CF6D (/dev/sda) on proxmox1.ad110.local
+2025-05-21 04:05:14 - Comment: Total written: 33.87 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #202 Percentage Of The Rated Lifetime Used
+2025-05-21 04:05:14 - Action: No actions needed.
+2025-05-21 04:05:14 - Inserted new disk 1822E140CF6D into inventory
+2025-05-21 04:05:14 - Inserted health data for disk 1822E140CF6D
+2025-05-21 04:05:14 - Storage data import completed for server proxmox1.ad110.local
+2025-05-21 04:05:14 - Temporary file /tmp/tmp.feQYWDCnMV removed
+2025-05-21 04:05:14 - Starting storage data import for server proxmox2.ad110.local on port 22
+2025-05-21 04:05:14 - Connecting to proxmox2.ad110.local:22 and executing HDSentinel command
+2025-05-21 04:05:15 - HDSentinel output saved to /tmp/tmp.R829P4bZ8j
+2025-05-21 04:05:15 - Processing HDSentinel output
+2025-05-21 04:05:15 - Processing disk S2RBNXAH281126A (/dev/sda) on proxmox2.ad110.local
+2025-05-21 04:05:15 - Comment: Total written: 21.70 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #177 Wear Leveling Count
+2025-05-21 04:05:15 - Action: No actions needed.
+2025-05-21 04:05:15 - Inserted new disk S2RBNXAH281126A into inventory
+2025-05-21 04:05:15 - Inserted health data for disk S2RBNXAH281126A
+2025-05-21 04:05:15 - Storage data import completed for server proxmox2.ad110.local
+2025-05-21 04:05:15 - Temporary file /tmp/tmp.R829P4bZ8j removed
+2025-05-21 04:05:15 - Starting storage data import for server proxmox3.ad110.local on port 22
+2025-05-21 04:05:15 - Connecting to proxmox3.ad110.local:22 and executing HDSentinel command
+2025-05-21 04:05:17 - HDSentinel output saved to /tmp/tmp.NELpMJN1rq
+2025-05-21 04:05:17 - Processing HDSentinel output
+2025-05-21 04:05:17 - Processing disk 2204E6018FA2 (/dev/sda) on proxmox3.ad110.local
+2025-05-21 04:05:17 - Comment: The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #202 Vendor-specific
+2025-05-21 04:05:17 - Action: It is recommended to continuously monitor the hard disk status.
+2025-05-21 04:05:17 - Updated last_checked for disk 2204E6018FA2 in inventory
+2025-05-21 04:05:17 - Inserted health data for disk 2204E6018FA2
+2025-05-21 04:05:17 - Processing disk WD-WX22D71J5THT (/dev/sdb) on proxmox3.ad110.local
+2025-05-21 04:05:17 - Comment: The drive found 1 bad sectors during its self test. There are 1 weak sectors found on the disk surface. They may be remapped any time in the later use of the disk. More information: https://www.hdsentinel.com/hard_disk_case_weak_sectors.php At this point, warranty replacement of the disk is not yet possible, only if the health drops further. It is recommended to examine the log of the disk regularly. All new problems found will be logged there.
+2025-05-21 04:05:17 - Action: No actions needed.
+2025-05-21 04:05:17 - Updated last_checked for disk WD-WX22D71J5THT in inventory
+2025-05-21 04:05:17 - Inserted health data for disk WD-WX22D71J5THT
+2025-05-21 04:05:18 - Processing disk VGJZGY7G (/dev/sdc) on proxmox3.ad110.local
+2025-05-21 04:05:18 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:05:18 - Action: No actions needed.
+2025-05-21 04:05:18 - Updated last_checked for disk VGJZGY7G in inventory
+2025-05-21 04:05:18 - Inserted health data for disk VGJZGY7G
+2025-05-21 04:05:18 - Processing disk VR162X9K (/dev/sdd) on proxmox3.ad110.local
+2025-05-21 04:05:18 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:05:18 - Action: No actions needed.
+2025-05-21 04:05:18 - Inserted new disk VR162X9K into inventory
+2025-05-21 04:05:18 - Inserted health data for disk VR162X9K
+2025-05-21 04:05:18 - Processing disk VGJ4H6HG (/dev/sdf) on proxmox3.ad110.local
+2025-05-21 04:05:18 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:05:18 - Action: No actions needed.
+2025-05-21 04:05:18 - Updated last_checked for disk VGJ4H6HG in inventory
+2025-05-21 04:05:18 - Inserted health data for disk VGJ4H6HG
+2025-05-21 04:05:18 - Storage data import completed for server proxmox3.ad110.local
+2025-05-21 04:05:18 - Temporary file /tmp/tmp.NELpMJN1rq removed
+2025-05-21 04:05:18 - Starting storage data import for server proxmox1.m6.local on port 22
+2025-05-21 04:05:18 - Connecting to proxmox1.m6.local:22 and executing HDSentinel command
+2025-05-21 04:05:21 - HDSentinel output saved to /tmp/tmp.EJOXqzViUh
+2025-05-21 04:05:21 - Processing HDSentinel output
+2025-05-21 04:05:22 - Processing disk 031613-213921685 (/dev/sda) on proxmox1.m6.local
+2025-05-21 04:05:22 - Comment: Total written: 28.52 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #169 Remain Life Percentage
+2025-05-21 04:05:22 - Action: It is recommended to continuously monitor the hard disk status.
+2025-05-21 04:05:22 - Inserted new disk 031613-213921685 into inventory
+2025-05-21 04:05:22 - Inserted health data for disk 031613-213921685
+2025-05-21 04:05:22 - Storage data import completed for server proxmox1.m6.local
+2025-05-21 04:05:22 - Temporary file /tmp/tmp.EJOXqzViUh removed
+2025-05-21 04:05:22 - Starting storage data import for server proxmox2.m6.local on port 22
+2025-05-21 04:05:22 - Connecting to proxmox2.m6.local:22 and executing HDSentinel command
+2025-05-21 04:05:23 - HDSentinel output saved to /tmp/tmp.nWRncr3NJQ
+2025-05-21 04:05:23 - Processing HDSentinel output
+2025-05-21 04:05:23 - Processing disk S3Z2NB1KC22488F (/dev/sda) on proxmox2.m6.local
+2025-05-21 04:05:23 - Comment: Total written: 18.24 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #177 Wear Leveling Count
+2025-05-21 04:05:23 - Action: No actions needed.
+2025-05-21 04:05:23 - Inserted new disk S3Z2NB1KC22488F into inventory
+2025-05-21 04:05:23 - Inserted health data for disk S3Z2NB1KC22488F
+2025-05-21 04:05:23 - Processing disk WD-WX12D51853E4 (/dev/sdb) on proxmox2.m6.local
+2025-05-21 04:05:23 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:05:23 - Action: No actions needed.
+2025-05-21 04:05:23 - Inserted new disk WD-WX12D51853E4 into inventory
+2025-05-21 04:05:23 - Inserted health data for disk WD-WX12D51853E4
+2025-05-21 04:05:23 - Processing disk amusb (/dev/sdc) on proxmox2.m6.local
+2025-05-21 04:05:23 - Comment: 
+2025-05-21 04:05:23 - Action: Est. lifetime:
+2025-05-21 04:05:24 - Inserted new disk amusb into inventory
+2025-05-21 04:05:24 - Inserted health data for disk amusb
+2025-05-21 04:05:24 - Storage data import completed for server proxmox2.m6.local
+2025-05-21 04:05:24 - Temporary file /tmp/tmp.nWRncr3NJQ removed
+2025-05-21 04:05:24 - Starting storage data import for server proxmox1.libero.local on port 22
+2025-05-21 04:05:24 - Connecting to proxmox1.libero.local:22 and executing HDSentinel command
+2025-05-21 04:05:26 - HDSentinel output saved to /tmp/tmp.Xrf1zDqkw1
+2025-05-21 04:05:26 - Processing HDSentinel output
+2025-05-21 04:05:26 - Processing disk WD-WCAZA6548497 (/dev/sda) on proxmox1.libero.local
+2025-05-21 04:05:26 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:05:26 - Action: No actions needed.
+2025-05-21 04:05:26 - Inserted new disk WD-WCAZA6548497 into inventory
+2025-05-21 04:05:26 - Inserted health data for disk WD-WCAZA6548497
+2025-05-21 04:05:26 - Processing disk WD-WCC4M0782134 (/dev/sdb) on proxmox1.libero.local
+2025-05-21 04:05:26 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:05:26 - Action: No actions needed.
+2025-05-21 04:05:26 - Inserted new disk WD-WCC4M0782134 into inventory
+2025-05-21 04:05:26 - Inserted health data for disk WD-WCC4M0782134
+2025-05-21 04:05:26 - Processing disk WD-WCC300405682 (/dev/sdc) on proxmox1.libero.local
+2025-05-21 04:05:26 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:05:26 - Action: No actions needed.
+2025-05-21 04:05:26 - Inserted new disk WD-WCC300405682 into inventory
+2025-05-21 04:05:26 - Inserted health data for disk WD-WCC300405682
+2025-05-21 04:05:27 - Processing disk UT05 (/dev/sdd) on proxmox1.libero.local
+2025-05-21 04:05:27 - Comment: 
+2025-05-21 04:05:27 - Action: Est. lifetime:
+2025-05-21 04:05:27 - Inserted new disk UT05 into inventory
+2025-05-21 04:05:27 - Inserted health data for disk UT05
+2025-05-21 04:05:27 - Processing disk JK1130YAGKMNUT (/dev/sde) on proxmox1.libero.local
+2025-05-21 04:05:27 - Comment: Problems occurred between the communication of the disk and the host 10960 times. In case of sudden system crash, reboot, blue-screen-of-death, inaccessible file(s)/folder(s), it is recommended to verify data and power cables, connections - and if possible try different cables to prevent further problems. More information: https://www.hdsentinel.com/hard_disk_case_communication_error.php
+2025-05-21 04:05:27 - Action: No actions needed.
+2025-05-21 04:05:27 - Inserted new disk JK1130YAGKMNUT into inventory
+2025-05-21 04:05:27 - Inserted health data for disk JK1130YAGKMNUT
+2025-05-21 04:05:27 - Processing disk 04102221B0076 (/dev/sdf) on proxmox1.libero.local
+2025-05-21 04:05:27 - Comment: Total written: 9.59 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #169 Remain Life Percentage
+2025-05-21 04:05:27 - Action: No actions needed.
+2025-05-21 04:05:27 - Inserted new disk 04102221B0076 into inventory
+2025-05-21 04:05:28 - Inserted health data for disk 04102221B0076
+2025-05-21 04:05:28 - Processing disk WD-WCC4M4AXCCER (/dev/sdg) on proxmox1.libero.local
+2025-05-21 04:05:28 - Comment: There are 1 bad sectors on the disk surface. The contents of these sectors were moved to the spare area. The drive found 2 bad sectors during its self test. There are 3 weak sectors found on the disk surface. They may be remapped any time in the later use of the disk. More information: https://www.hdsentinel.com/hard_disk_case_weak_sectors.php At this point, warranty replacement of the disk is not yet possible, only if the health drops further. It is recommended to examine the log of the disk regularly. All new problems found will be logged there.
+2025-05-21 04:05:28 - Action: No actions needed.
+2025-05-21 04:05:28 - Inserted new disk WD-WCC4M4AXCCER into inventory
+2025-05-21 04:05:28 - Inserted health data for disk WD-WCC4M4AXCCER
+2025-05-21 04:05:28 - Storage data import completed for server proxmox1.libero.local
+2025-05-21 04:05:28 - Temporary file /tmp/tmp.Xrf1zDqkw1 removed
+2025-05-21 04:05:28 - Starting storage data import for server proxmox2.libero.local on port 22
+2025-05-21 04:05:28 - Connecting to proxmox2.libero.local:22 and executing HDSentinel command
+2025-05-21 04:05:59 - HDSentinel output saved to /tmp/tmp.4VdZUWjhtF
+2025-05-21 04:05:59 - Processing HDSentinel output
+2025-05-21 04:05:59 - Processing disk 50026B728282742D (/dev/sda) on proxmox2.libero.local
+2025-05-21 04:05:59 - Comment: Total written: 21.70 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #231 SSD Life Left
+2025-05-21 04:05:59 - Action: No actions needed.
+2025-05-21 04:05:59 - Inserted new disk 50026B728282742D into inventory
+2025-05-21 04:05:59 - Inserted health data for disk 50026B728282742D
+2025-05-21 04:06:00 - Processing disk WD-CA2REKEK (/dev/sdb) on proxmox2.libero.local
+2025-05-21 04:06:00 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:06:00 - Action: No actions needed.
+2025-05-21 04:06:00 - Inserted new disk WD-CA2REKEK into inventory
+2025-05-21 04:06:00 - Inserted health data for disk WD-CA2REKEK
+2025-05-21 04:06:00 - Processing disk ? (/dev/sdc) on proxmox2.libero.local
+2025-05-21 04:06:00 - Comment: 
+2025-05-21 04:06:00 - Action: Est. lifetime:
+2025-05-21 04:06:00 - Updated last_checked for disk ? in inventory
+2025-05-21 04:06:00 - Inserted health data for disk ?
+2025-05-21 04:06:00 - Storage data import completed for server proxmox2.libero.local
+2025-05-21 04:06:00 - Temporary file /tmp/tmp.4VdZUWjhtF removed
+2025-05-21 04:06:00 - Starting storage data import for server proxmox1.plus.local on port 22
+2025-05-21 04:06:00 - Connecting to proxmox1.plus.local:22 and executing HDSentinel command
+2025-05-21 04:06:01 - HDSentinel output saved to /tmp/tmp.5LNXqNIm7W
+2025-05-21 04:06:01 - Processing HDSentinel output
+2025-05-21 04:06:01 - Processing disk S7EWNJ0X100828H (/dev/sda) on proxmox1.plus.local
+2025-05-21 04:06:01 - Comment: Total written: 1.64 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found.
+2025-05-21 04:06:01 - Action: No actions needed.
+2025-05-21 04:06:01 - Inserted new disk S7EWNJ0X100828H into inventory
+2025-05-21 04:06:01 - Inserted health data for disk S7EWNJ0X100828H
+2025-05-21 04:06:01 - Processing disk S6PYNM0W934950F (/dev/sdb) on proxmox1.plus.local
+2025-05-21 04:06:01 - Comment: Total written: 3.12 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found.
+2025-05-21 04:06:01 - Action: No actions needed.
+2025-05-21 04:06:01 - Inserted new disk S6PYNM0W934950F into inventory
+2025-05-21 04:06:02 - Inserted health data for disk S6PYNM0W934950F
+2025-05-21 04:06:02 - Processing disk 14A0A0AHSDEH (/dev/sdc) on proxmox1.plus.local
+2025-05-21 04:06:02 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:06:02 - Action: No actions needed.
+2025-05-21 04:06:02 - Inserted new disk 14A0A0AHSDEH into inventory
+2025-05-21 04:06:02 - Inserted health data for disk 14A0A0AHSDEH
+2025-05-21 04:06:02 - Storage data import completed for server proxmox1.plus.local
+2025-05-21 04:06:02 - Temporary file /tmp/tmp.5LNXqNIm7W removed
+2025-05-21 04:06:02 - Starting storage data import for server proxmox1.figura.local on port 22
+2025-05-21 04:06:02 - Connecting to proxmox1.figura.local:22 and executing HDSentinel command
+2025-05-21 04:06:06 - HDSentinel output saved to /tmp/tmp.pwIk0XOjmf
+2025-05-21 04:06:06 - Processing HDSentinel output
+2025-05-21 04:06:06 - Processing disk 48FS10KLTBDT (/dev/sda) on proxmox1.figura.local
+2025-05-21 04:06:06 - Comment: Total written: 8.39 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #233 Host Writes
+2025-05-21 04:06:06 - Action: No actions needed.
+2025-05-21 04:06:06 - Updated last_checked for disk 48FS10KLTBDT in inventory
+2025-05-21 04:06:06 - Inserted health data for disk 48FS10KLTBDT
+2025-05-21 04:06:06 - Processing disk 28MS11ASTBDT (/dev/sda) on proxmox1.figura.local
+2025-05-21 04:06:06 - Comment: Total written: 8.39 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #233 Host Writes
+2025-05-21 04:06:06 - Action: No actions needed.
+2025-05-21 04:06:06 - Updated last_checked for disk 28MS11ASTBDT in inventory
+2025-05-21 04:06:06 - Inserted health data for disk 28MS11ASTBDT
+2025-05-21 04:06:06 - Processing disk 88C0A05LF75E (/dev/sda) on proxmox1.figura.local
+2025-05-21 04:06:06 - Comment: Total written: 249.24 TB The status of the hard disk is perfect.
+2025-05-21 04:06:06 - Action: No actions needed.
+2025-05-21 04:06:06 - Updated last_checked for disk 88C0A05LF75E in inventory
+2025-05-21 04:06:07 - Inserted health data for disk 88C0A05LF75E
+2025-05-21 04:06:07 - Processing disk 88C0A04PF75E (/dev/sda) on proxmox1.figura.local
+2025-05-21 04:06:07 - Comment: Total written: 250.37 TB The status of the hard disk is perfect.
+2025-05-21 04:06:07 - Action: No actions needed.
+2025-05-21 04:06:07 - Updated last_checked for disk 88C0A04PF75E in inventory
+2025-05-21 04:06:07 - Inserted health data for disk 88C0A04PF75E
+2025-05-21 04:06:07 - Processing disk 88C0A04MF75E (/dev/sda) on proxmox1.figura.local
+2025-05-21 04:06:07 - Comment: Total written: 353.75 TB The hard disk reports the following problems: Total uncorrected read errors = 4 Total uncorrected verify errors = 3
+2025-05-21 04:06:07 - Action: No actions needed.
+2025-05-21 04:06:07 - Updated last_checked for disk 88C0A04MF75E in inventory
+2025-05-21 04:06:07 - Inserted health data for disk 88C0A04MF75E
+2025-05-21 04:06:07 - Processing disk 88C0A04NF75E (/dev/sda) on proxmox1.figura.local
+2025-05-21 04:06:07 - Comment: Total written: 353.92 TB The status of the hard disk is perfect.
+2025-05-21 04:06:07 - Action: No actions needed.
+2025-05-21 04:06:07 - Updated last_checked for disk 88C0A04NF75E in inventory
+2025-05-21 04:06:07 - Inserted health data for disk 88C0A04NF75E
+2025-05-21 04:06:07 - Processing disk V3G0Z69F (/dev/sda) on proxmox1.figura.local
+2025-05-21 04:06:07 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:06:07 - Action: No actions needed.
+2025-05-21 04:06:07 - Updated last_checked for disk V3G0Z69F in inventory
+2025-05-21 04:06:07 - Inserted health data for disk V3G0Z69F
+2025-05-21 04:06:07 - Processing disk V3G0ZDDF (/dev/sda) on proxmox1.figura.local
+2025-05-21 04:06:07 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:06:07 - Action: No actions needed.
+2025-05-21 04:06:07 - Updated last_checked for disk V3G0ZDDF in inventory
+2025-05-21 04:06:07 - Inserted health data for disk V3G0ZDDF
+2025-05-21 04:06:08 - Processing disk ? (/dev/sdb) on proxmox1.figura.local
+2025-05-21 04:06:08 - Comment: 
+2025-05-21 04:06:08 - Action: Est. lifetime:
+2025-05-21 04:06:08 - Updated last_checked for disk ? in inventory
+2025-05-21 04:06:08 - Inserted health data for disk ?
+2025-05-21 04:06:08 - Processing disk ? (/dev/sdc) on proxmox1.figura.local
+2025-05-21 04:06:08 - Comment: 
+2025-05-21 04:06:08 - Action: Est. lifetime:
+2025-05-21 04:06:08 - Updated last_checked for disk ? in inventory
+2025-05-21 04:06:08 - Inserted health data for disk ?
+2025-05-21 04:06:08 - Processing disk ? (/dev/sdd) on proxmox1.figura.local
+2025-05-21 04:06:08 - Comment: 
+2025-05-21 04:06:08 - Action: Est. lifetime:
+2025-05-21 04:06:08 - Updated last_checked for disk ? in inventory
+2025-05-21 04:06:08 - Inserted health data for disk ?
+2025-05-21 04:06:08 - Storage data import completed for server proxmox1.figura.local
+2025-05-21 04:06:08 - Temporary file /tmp/tmp.pwIk0XOjmf removed
+2025-05-21 04:06:08 - Starting storage data import for server proxmox1.ezhellas.com on port 56022
+2025-05-21 04:06:08 - Connecting to proxmox1.ezhellas.com:56022 and executing HDSentinel command
+2025-05-21 04:06:09 - HDSentinel output saved to /tmp/tmp.5As9Elx3Ry
+2025-05-21 04:06:09 - Processing HDSentinel output
+2025-05-21 04:06:09 - Processing disk 4DG8EEHZ (/dev/sda) on proxmox1.ezhellas.com
+2025-05-21 04:06:09 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:06:09 - Action: No actions needed.
+2025-05-21 04:06:09 - Updated last_checked for disk 4DG8EEHZ in inventory
+2025-05-21 04:06:09 - Inserted health data for disk 4DG8EEHZ
+2025-05-21 04:06:09 - Processing disk 4DG5085Z (/dev/sdb) on proxmox1.ezhellas.com
+2025-05-21 04:06:09 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:06:09 - Action: No actions needed.
+2025-05-21 04:06:09 - Updated last_checked for disk 4DG5085Z in inventory
+2025-05-21 04:06:09 - Inserted health data for disk 4DG5085Z
+2025-05-21 04:06:09 - Storage data import completed for server proxmox1.ezhellas.com
+2025-05-21 04:06:09 - Temporary file /tmp/tmp.5As9Elx3Ry removed
+2025-05-21 04:06:09 - Starting storage data import for server proxmox2.ezhellas.com on port 56022
+2025-05-21 04:06:09 - Connecting to proxmox2.ezhellas.com:56022 and executing HDSentinel command
+2025-05-21 04:06:11 - HDSentinel output saved to /tmp/tmp.Mz8UGfgEcv
+2025-05-21 04:06:11 - Processing HDSentinel output
+2025-05-21 04:06:11 - Processing disk S1YJNXAG802330 (/dev/sda) on proxmox2.ezhellas.com
+2025-05-21 04:06:11 - Comment: Total written: 282.90 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #177 Wear Leveling Count
+2025-05-21 04:06:11 - Action: No actions needed.
+2025-05-21 04:06:11 - Updated last_checked for disk S1YJNXAG802330 in inventory
+2025-05-21 04:06:11 - Inserted health data for disk S1YJNXAG802330
+2025-05-21 04:06:11 - Processing disk S1YJNXAH301382 (/dev/sdb) on proxmox2.ezhellas.com
+2025-05-21 04:06:11 - Comment: Total written: 298.05 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): #177 Wear Leveling Count
+2025-05-21 04:06:11 - Action: No actions needed.
+2025-05-21 04:06:11 - Updated last_checked for disk S1YJNXAH301382 in inventory
+2025-05-21 04:06:11 - Inserted health data for disk S1YJNXAH301382
+2025-05-21 04:06:11 - Processing disk WD-WMC1P0116043 (/dev/sdc) on proxmox2.ezhellas.com
+2025-05-21 04:06:11 - Comment: There are 5 weak sectors found on the disk surface. They may be remapped any time in the later use of the disk. More information: https://www.hdsentinel.com/hard_disk_case_weak_sectors.php At this point, warranty replacement of the disk is not yet possible, only if the health drops further. It is recommended to examine the log of the disk regularly. All new problems found will be logged there.
+2025-05-21 04:06:11 - Action: No actions needed.
+2025-05-21 04:06:11 - Updated last_checked for disk WD-WMC1P0116043 in inventory
+2025-05-21 04:06:11 - Inserted health data for disk WD-WMC1P0116043
+2025-05-21 04:06:11 - Processing disk WD-WMC1P0115780 (/dev/sdd) on proxmox2.ezhellas.com
+2025-05-21 04:06:11 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:06:11 - Action: No actions needed.
+2025-05-21 04:06:11 - Updated last_checked for disk WD-WMC1P0115780 in inventory
+2025-05-21 04:06:11 - Inserted health data for disk WD-WMC1P0115780
+2025-05-21 04:06:11 - Storage data import completed for server proxmox2.ezhellas.com
+2025-05-21 04:06:11 - Temporary file /tmp/tmp.Mz8UGfgEcv removed
+2025-05-21 04:06:11 - Starting storage data import for server proxmox3.ezhellas.com on port 22
+2025-05-21 04:06:11 - Connecting to proxmox3.ezhellas.com:22 and executing HDSentinel command
+2025-05-21 04:06:13 - HDSentinel output saved to /tmp/tmp.MdO9lMvo0Q
+2025-05-21 04:06:13 - Processing HDSentinel output
+2025-05-21 04:06:13 - Processing disk S4GJNX0R516795 (/dev/nvme0) on proxmox3.ezhellas.com
+2025-05-21 04:06:13 - Comment: Total written: 102.05 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): Available Spare (Percent), Percentage Used
+2025-05-21 04:06:13 - Action: No actions needed.
+2025-05-21 04:06:13 - Updated last_checked for disk S4GJNX0R516795 in inventory
+2025-05-21 04:06:13 - Inserted health data for disk S4GJNX0R516795
+2025-05-21 04:06:13 - Processing disk S4GJNX0R516796 (/dev/nvme1) on proxmox3.ezhellas.com
+2025-05-21 04:06:13 - Comment: Total written: 30.88 TB The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. The health is determined by SSD specific S.M.A.R.T. attribute(s): Available Spare (Percent), Percentage Used
+2025-05-21 04:06:13 - Action: No actions needed.
+2025-05-21 04:06:13 - Updated last_checked for disk S4GJNX0R516796 in inventory
+2025-05-21 04:06:13 - Inserted health data for disk S4GJNX0R516796
+2025-05-21 04:06:13 - Processing disk 87O6Y018FTTB (/dev/sda) on proxmox3.ezhellas.com
+2025-05-21 04:06:13 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:06:13 - Action: No actions needed.
+2025-05-21 04:06:13 - Updated last_checked for disk 87O6Y018FTTB in inventory
+2025-05-21 04:06:13 - Inserted health data for disk 87O6Y018FTTB
+2025-05-21 04:06:13 - Storage data import completed for server proxmox3.ezhellas.com
+2025-05-21 04:06:13 - Temporary file /tmp/tmp.MdO9lMvo0Q removed
+2025-05-21 04:06:13 - Starting storage data import for server proxmox4.ezhellas.com on port 56022
+2025-05-21 04:06:13 - Connecting to proxmox4.ezhellas.com:56022 and executing HDSentinel command
+2025-05-21 04:06:14 - HDSentinel output saved to /tmp/tmp.1gtDzGvLVr
+2025-05-21 04:06:14 - Processing HDSentinel output
+2025-05-21 04:06:14 - Processing disk 7HKKXYJJ (/dev/sda) on proxmox4.ezhellas.com
+2025-05-21 04:06:14 - Comment: The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors.
+2025-05-21 04:06:14 - Action: No actions needed.
+2025-05-21 04:06:14 - Updated last_checked for disk 7HKKXYJJ in inventory
+2025-05-21 04:06:14 - Inserted health data for disk 7HKKXYJJ
+2025-05-21 04:06:15 - Processing disk 7HKTAM6N (/dev/sdb) on proxmox4.ezhellas.com
+2025-05-21 04:06:15 - Comment: There are 12 bad sectors on the disk surface. The contents of these sectors were moved to the spare area. Based on the number of remapping operations, the health of the disk was decreased in different steps. At this point, warranty replacement of the disk is not yet possible, only if the health drops further. It is recommended to examine the log of the disk regularly. All new problems found will be logged there.
+2025-05-21 04:06:15 - Action: It is recommended to continuously monitor the hard disk status.
+2025-05-21 04:06:15 - Updated last_checked for disk 7HKTAM6N in inventory
+2025-05-21 04:06:15 - Inserted health data for disk 7HKTAM6N
+2025-05-21 04:06:15 - Storage data import completed for server proxmox4.ezhellas.com
+2025-05-21 04:06:15 - Temporary file /tmp/tmp.1gtDzGvLVr removed
